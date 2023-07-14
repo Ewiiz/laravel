@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @vite('resources/css/app.css')
 </head>
-<body>
+<body class=" bg-cyan-950 text-orange-500">
     @include('partials.navbar')
-    <div class="container mx-auto">
+    <div class="h-56 grid grid-cols-3 gap-4 content-start space-x-4">
         @yield('content')
     </div>
 
